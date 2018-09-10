@@ -98,6 +98,9 @@ header nav{
     padding-left:20px;
     padding-right:20px;
 }*/
+.hide{
+    display: none;
+}
 
 #boxes{
     background:#35434a;

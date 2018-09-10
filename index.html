@@ -48,9 +48,9 @@
                           DELETE
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#LatinaD">LATINAS</a>
-                          <a class="dropdown-item" href="#RockD">ROCK</a>
-                          <a class="dropdown-item" href="#RadioMusicD">RADIO MUSIC</a>
+                          <a class="dropdown-item" href="#LatinaD" onclick="accion1()" id="Accion1">LATINAS</a>
+                          <a class="dropdown-item" href="#RockD" onclick="accion2()" id="Accion2">ROCK</a>
+                          <a class="dropdown-item" href="#RadioMusicD" onclick="accion3()" id="Accion3">RADIO MUSIC</a>
                         </div>
                     </div>
                     <div class="dropdown">
@@ -67,7 +67,7 @@
             </div>
     </div>
     <div class = "row" id="boxes">
-            <div class="col-sm-4">
+            <div class="col-sm-4" id="cards1">
                     <div class="card text-center" id="boxes">
                             <div class="card-header">
                               Latinas
@@ -82,7 +82,7 @@
                             </div>
                           </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4" id="cards2">
                     <div class="card text-center" id="boxes">
                             <div class="card-header">
                               Rock
@@ -97,7 +97,7 @@
                             </div>
                           </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4" id="cards3">
                     <div class="card text-center" id="boxes">
                             <div class="card-header">
                                 Radio Music
@@ -112,21 +112,6 @@
                             </div>
                           </div>
             </div>
-            <!--<div class="box" class = "col-sm-4">
-                <img src="./img/Latin_Music.jpg">
-                <h3>Latinas</h3>
-                <p>Music in spanish, you can find a lot of genres such as Salsa, Merengue, Bachata, Reggaeton, Pop.</p>
-            </div>
-            <div class="box" class = "col-sm-4">
-                <img src="./img/Rock.jpg">
-                <h3>Rock</h3>
-                <p>These songs rocked the 90s, will find something from Nirvana, Oasis, Green Day and more.</p>
-            </div>
-            <div class="box" class = "col-sm-4">
-                <img src="./img/Radio_Music.jpg">
-                <h3>Radio Music</h3>
-                <p>To stay updated with the lastest music on the market. Songs from 2015 to 2018</p>
-            </div>-->
     </div>
     <footer>
         <div class="row">
@@ -136,6 +121,7 @@
         </div>
     </footer>
     <script src="./js/jquery-3.3.1.min.js " type="text/javascript "></script>
+    <script src="./js/funciones.js"></script>
     <script src="./js/popper.min.js "></script>
     <script src="./js/bootstrap.min.js"></script>
 </body>
