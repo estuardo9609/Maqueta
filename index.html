@@ -19,12 +19,8 @@
             <div class = "col-sm-7">
                 <nav>
                     <ul>    
-                        <li><a href="#Estilo1" onclick="estilo1()" id="Estilo1">ESTILO1</a></li>
-                        <li><a href="#Estilo2" onclick="estilo2()" id="Estilo2">ESTILO2</a></li>
-                        <li><a href="#Estilo3" onclick="estilo3()" id="Estilo3">ESTILO3</a></li>
-                        <li><a href="#Estilo4" onclick="estilo4()" id="Estilo4">ESTILO4</a></li>
-                        <li><a href="#Estilo5" onclick="estilo5()" id="Estilo5">ESTILO5</a></li>
-                        <li><a href="index.html">ORIGINAL</a></li>
+                        <li><a href="#Estilo1" id="Explore">Explore</a></li>
+                        <li><a href="#Login" id="Login">Login</a></li>
                     </ul>
                  </nav>
             </div>
@@ -42,13 +38,32 @@
     </div>
     <div class = "row text-center" id="newsletter">
             <div class = "col-sm-7" >
-                    <h1>Search your favorite music</h1>
+                    <h1>My Playlists</h1>
             </div>
             <div class = "col-sm-5" >
-                <form>
-                        <input placeholder="Search..">
-                        <button type="submit" class="button_1">SEARCH</button>
-                </form>
+                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                    <button type="button" class="btn btn-secondary">AGREGAR</button>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          ELIMINAR
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#LatinaD">Action</a>
+                          <a class="dropdown-item" href="#RockD">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          EDITAR
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
             </div>
     </div>
     <div class = "row" id="boxes">
@@ -120,7 +135,7 @@
             </div> 
         </div>
     </footer>
+    <script src="./js/jquery-3.3.1.min.js " type="text/javascript "></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
-<script src="./js/jquery-3.3.1.min.js " type="text/javascript "></script>
-<script src="./js/funciones.js"></script>
 </html>
